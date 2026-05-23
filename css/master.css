@@ -1,0 +1,128 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: vazir;
+    src: url(../font/Vazirmatn/Vazirmatn-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: jost;
+    src: url(../font/Jost/Jost-VariableFont_wght.ttf);
+}
+
+@layer base {
+    body {
+        font-family: vazir;
+    }
+
+    body {
+        @apply font-normal
+    }
+}
+
+@layer utilities {
+    .path {
+        clip-path: inset(0);
+    }
+
+    .bgOr {
+        background-color: #EBBC79;
+    }
+
+    .trans {
+        transition: transform 0.5s ease-in-out;
+        will-change: transform;
+        backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+    }
+
+    .resCard {
+        will-change: transform;
+        backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+    }
+
+    .comCard {
+        backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+    }
+
+    .active {
+        z-index: 2;
+        opacity: 1 !important;
+    }
+
+    .slideHidden {
+        z-index: 1;
+        opacity: 0 !important;
+        pointer-events: none;
+    }
+
+    .fade-out {
+        animation: fadeOutRight 0.6s linear forwards;
+    }
+
+    .fade-in {
+        animation: fadeInRight 0.6s linear forwards;
+    }
+}
+
+@keyframes fadeOutRight {
+    0% {
+        mask-image: linear-gradient(to right, black, black);
+        -webkit-mask-image: linear-gradient(to right, black, black);
+        opacity: 1;
+        visibility: visible;
+    }
+    30% {
+        mask-image: linear-gradient(to right, rgba(0,0,0,0.7), black);
+        -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,0.7), black);
+        opacity: 0.8;
+    }
+    60% {
+        mask-image: linear-gradient(to right, rgba(0,0,0,0.3), black);
+        -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,0.3), black);
+        opacity: 0.4;
+    }
+    100% {
+        mask-image: linear-gradient(to right, transparent, black);
+        -webkit-mask-image: linear-gradient(to right, transparent, black);
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+@keyframes fadeInRight {
+    0% {
+        mask-image: linear-gradient(to right, transparent, black);
+        -webkit-mask-image: linear-gradient(to right, transparent, black);
+        opacity: 0;
+        visibility: hidden;
+    }
+    30% {
+        mask-image: linear-gradient(to right, rgba(0,0,0,0.3), black);
+        -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,0.3), black);
+        opacity: 0.4;
+    }
+    60% {
+        mask-image: linear-gradient(to right, rgba(0,0,0,0.7), black);
+        -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,0.7), black);
+        opacity: 0.8;
+    }
+    100% {
+        mask-image: linear-gradient(to right, black, black);
+        -webkit-mask-image: linear-gradient(to right, black, black);
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+@theme {
+    --font-jost: "jost", sans-serif;
+    --breakpoint-zx: 86rem;
+    --breakpoint-lx: 72rem;
+    --breakpoint-ml: 53rem;
+    --breakpoint-xsm: 40rem;
+    --breakpoint-xs: 30rem;
+    --breakpoint-xss: 21rem;
+}

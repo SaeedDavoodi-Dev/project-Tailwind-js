@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/output.css">
+    <link rel="stylesheet" href="font/icon/remixicon.css">
+</head>
+
+<body>
+    <div class="w-14 h-14 fixed left-8 bottom-8 rounded-full z-999"><div id="toUp" class="flex justify-center items-center w-0 h-0 rounded-full invisible opacity-0 cursor-pointer absolute top-1/2 left-1/2 bg-[#f5aa42] duration-500 hover:bg-[#e28e19]"><i class="ri-arrow-left-s-line text-2xl text-white rotate-90"></i></div></div>
+    
+    <section class="w-full h-dvh 2xl:container mx-auto relative">
+        <div class="w-full h-full">
+            <!-- //////////////////////////////Header///////////////////////// -->
+            <div class="w-full h-2/3 xs:h-full relative">
+                <div class="w-full h-full path absolute top-0 left-0 overflow-hidden">
+                    <video autoplay muted src="video/Palace-Compress.mp4" type="video/mp4" class="active w-full h-full object-cover absolute xs:fixed top-0 left-0"></video>
+                </div>
+                <figure class="w-full h-full path absolute top-0 left-0 overflow-hidden">
+                    <img id="slideImg1" src="img/01.jpg" class="slideHidden w-full h-full object-cover absolute xs:fixed top-0 left-0" alt="slide">
+                    <img id="slideImg2" src="img/01.jpg" class="slideHidden w-full h-full object-cover absolute xs:fixed top-0 left-0" alt="slide">
+                </figure>
+                
+                <div class="w-full h-full absolute top-0 left-0 lg:shadow-[inset_0_200px_70px_0_#00000099]"></div>
+                <div class="w-full h-20 relative xss:h-24 xs:h-28 sm:h-32 lg:border-b bg-[#00000093] lg:bg-transparent border-[#dadada7b] flex items-center justify-between px-5 sm:px-7">
+                    <div id="menu1" class="h-dvh lg:hidden flex fixed z-11 top-0 left-0 bg-[#00000089]">
+                        <div class="absolute duration-700 w-5/6 xs:w-2/3 sm:w-1/2 md:w-2/5 h-full bg-[#353535] z-12 top-0 -left-full **:text-white overflow-hidden">
+                            <span id="close" class="w-full h-14 flex items-center pr-4 bg-[#303030]"><i class="ri-close-fill text-2xl"></i></span>
+                            <ul>
+                                <li class="w-full h-11 flex items-center font-normal text-[15px] pr-5 border-b border-[#2a2a2a] duration-100 hover:bg-[#2a2a2a] cursor-pointer">درباره هتل</li>
+                                <li class="w-full h-11 flex items-center font-normal text-[15px] pr-5 border-b border-[#2a2a2a] duration-100 hover:bg-[#2a2a2a] cursor-pointer">اتاق ها و سوئیت ها</li>
+                                <li class="w-full h-11 flex items-center font-normal text-[15px] pr-5 border-b border-[#2a2a2a] duration-100 hover:bg-[#2a2a2a] cursor-pointer">فان سنتر</li>
+                                <li class="w-full h-11 flex items-center font-normal text-[15px] pr-5 border-b border-[#2a2a2a] duration-100 hover:bg-[#2a2a2a] cursor-pointer">مرکز سلامتی</li>
+                                <li class="w-full h-11 flex items-center font-normal text-[15px] pr-5 border-b border-[#2a2a2a] duration-100 hover:bg-[#2a2a2a] cursor-pointer">رستوران ها</li>
+                                <li class="w-full h-11 flex items-center font-normal text-[15px] pr-5 border-b border-[#2a2a2a] duration-100 hover:bg-[#2a2a2a] cursor-pointer">جلسات و رویداد ها</li>
+                                <li class="w-full h-11 flex items-center font-normal text-[15px] pr-5 border-b border-[#2a2a2a] duration-100 hover:bg-[#2a2a2a] cursor-pointer">تهران رویال هال</li>
+                                <li class="w-full h-11 flex items-center font-normal text-[15px] pr-5 border-b border-[#2a2a2a] duration-100 hover:bg-[#2a2a2a] cursor-pointer">گروه هتل ها</li>
+                                <li class="w-full h-11 flex items-center font-normal text-[15px] pr-5 border-b border-[#2a2a2a] duration-100 hover:bg-[#2a2a2a] cursor-pointer">استخدام</li>
+                                <li class="w-full h-11 flex items-center font-normal text-[15px] pr-5 border-b border-[#2a2a2a] duration-100 hover:bg-[#2a2a2a] cursor-pointer">ارتباط با هتل</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="menu2" class="h-dvh hidden lg:flex fixed z-100 top-0 right-0 bg-[#00000089]">
+                        <div class="absolute duration-700 w-1/4 h-full bg-[url(../img/bgMenu.jpg)] pt-20 bg-cover z-10000 top-0 -right-full overflow-hidden">
+                        <div class="w-full h-full flex flex-col items-center">
+                            <figure class="mb-16"><img src="img/logoBlack.png" alt=""></figure>
+                            <div class="mb-16 text-center">
+                                <h3 class="text-[17px] text-[#D3A478] font-medium">دفتر فروش و مارکتینگ:</h3>
+                                <h4>تلفن تماس: 02175675</h4>
+                                <h4>نمابر: 02175675365</h4>
+                                <h4 class="text-[15px]">saeeddavoodi.dev@gmail.com</h4>
+                            </div>
+                            <div class="mb-10 text-center">
+                                <h3 class="text-[17px] text-[#D3A478] font-medium">رزرواسیون مرکزی هتل اسپیناس:</h3>
+                                <h4>تلفن تماس: 02175675</h4>
+                                <h4 class="text-[15px]">saeeddavoodi.dev@gmail.com</h4>
+                            </div>
+                            <div class="mb-10 flex gap-3">
+                                <a target="_blank" href="https://github.com/SaeedDavoodi-Dev"><i class="ri-github-fill text-[#262626] text-3xl"></i></a>
+                                <a target="_blank" href="https://www.linkedin.com/in/saeed-davoodi-127412368?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="ri-linkedin-box-fill text-[#0077b5] text-3xl"></i></a>
+                                <a target="_blank" href="https://www.instagram.com/saeed.davoodi_dev?igsh=MW8yazNpY2NzenV6Yg=="><i class="ri-instagram-fill text-[#da2e78] text-3xl"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="w-2/6 flex items-center">
+                        <div id="ham1" class="flex flex-col lg:hidden ml-12 cursor-pointer">
+                            <span class="w-5 xs:w-5.5 sm:w-6 h-0.5 rounded-4xl bg-white flex"></span>
+                            <span class="w-5 xs:w-5.5 sm:w-6 h-0.5 rounded-4xl bg-white flex my-1.5"></span>
+                            <span class="w-5 xs:w-5.5 sm:w-6 h-0.5 rounded-4xl bg-white flex"></span>
+                        </div>
+                       <i class="ri-close-fill text-white text-3xl hidden lg:hidden duration-200 cursor-pointer"></i>
+                        <div id="ham2" class="hidden lg:flex flex-col ml-12 cursor-pointer">
+                            <span class="w-5 xs:w-5.5 sm:w-6 h-0.5 rounded-4xl bg-white flex"></span>
+                            <span class="w-5 xs:w-5.5 sm:w-6 h-0.5 rounded-4xl bg-white flex my-1.5"></span>
+                            <span class="w-5 xs:w-5.5 sm:w-6 h-0.5 rounded-4xl bg-white flex"></span>
+                        </div>
+                        <div class="hidden lg:flex flex-col items-center">
+                            <span class="text-white mb-2">اوج احساسات</span>
+
+                            <div>
+                                <span class="text-white cursor-pointer font-jost text-[14px] bg-[#0000009e] px-4 py-1.5">فارسی</span>
+                                <span class="text-white cursor-pointer font-jost text-[14px] capitalize bg-[#0000009e] px-4 py-1.5">english</span>
+                            </div>
+                        </div>
+                    </div>
+                    <figure class="w-4/6 flex items-center justify-center"><a class="flex items-center justify-center" href=""><img class="w-24 xs:w-28 h-5/6 sm:w-32 md:w-36 lg:w-40 lg:h-full" src="img/logo.png" alt=""></a></figure>
+                    <div class="w-2/6 flex justify-end lg:hidden"><span class="text-white font-jost text-[13px] sm:text-[13px] capitalize bg-[#0000009e] px-3 py-1.5 cursor-pointer">english</span>
+                    </div>
+                    <div class="w-2/6 hidden lg:flex flex-col">
+                        <div class="flex items-center justify-end">
+                            <span class="text-white font-jost text-[14px] pb-0.5 pl-1.5">saeeddavoodi.dev@gmail.com</span>
+                            <i class="ri-mail-fill text-white text-[18px]"></i>
+                        </div>
+                        <div class="flex justify-end items-center">
+                            <span class="text-white text-[14px] pt-1 pl-1">02175675</span>
+                            <i class="ri-phone-fill text-white"></i>
+                        </div>
+                    </div>
+                </div>
+                <nav class="hidden lg:flex w-full relative h-24">
+                    <ul class="w-full h-full pt-5 flex **:text-white **:font-medium justify-center">
+                        <li class="px-3 xl:px-5"><a class="text-[14px] xl:text-[15px] hover:text-[#e4a853] duration-200" href="">درباره هتل</a></li>
+                        <li class="px-3 xl:px-5"><a class="text-[14px] xl:text-[15px] hover:text-[#e4a853] duration-200" href="">اتاق ها و سوئیت ها</a></li>
+                        <li class="px-3 xl:px-5"><a class="text-[14px] xl:text-[15px] hover:text-[#e4a853] duration-200" href="">فان سنتر</a></li>
+                        <li class="px-3 xl:px-5"><a class="text-[14px] xl:text-[15px] hover:text-[#e4a853] duration-200" href="">مرکز سلامتی</a></li>
+                        <li class="px-3 xl:px-5"><a class="text-[14px] xl:text-[15px] hover:text-[#e4a853] duration-200" href="">رستوران ها</a></li>
+                        <li class="px-3 xl:px-5"><a class="text-[14px] xl:text-[15px] hover:text-[#e4a853] duration-200" href="">جلسات و رویداد ها</a></li>
+                        <li class="px-3 xl:px-5"><a class="text-[14px] xl:text-[15px] hover:text-[#e4a853] duration-200" href="">تهران رویال هال</a></li>
+                        <li class="px-3 xl:px-5"><a class="text-[14px] xl:text-[15px] hover:text-[#e4a853] duration-200" href="">گروه هتل ها</a></li>
+                        <li class="px-3 xl:px-5"><a class="text-[14px] xl:text-[15px] hover:text-[#e4a853] duration-200" href="">استخدام</a></li>
+                        <li class="px-3 xl:px-5"><a class="text-[14px] xl:text-[15px] hover:text-[#e4a853] duration-200" href="">ارتباط با هتل</a></li>
+                    </ul>
+                </nav>
+                <span onclick="prevImg()" class="w-16 h-16 xs:w-18 xs:h-18 rounded-full cursor-pointer absolute top-1/2 -translate-y-1/2 left-5 sm:left-7 flex items-center justify-center after:content-[''] after:w-full after:h-full after:bg-[#0000003a] after:absolute after:left-0 after:top-0 after:z-2 after:rounded-full overflow-hidden group">
+                    <img id="imgPrev" class="group-hover:left-0 group-hover:opacity-100 group-hover:h-full group-hover:top-0 w-full h-0 object-cover opacity-0 rounded-full absolute -left-2/3 duration-200 top-1/2" src="img/08.jpg" alt="">
+                    <i class="ri-arrow-left-s-line text-[#ffffffb9] text-4xl relative z-3"></i>
+                </span>
+                <span onclick="nextImg()" class="w-16 h-16 xs:w-18 xs:h-18 rounded-full cursor-pointer absolute top-1/2 -translate-y-1/2 right-5 sm:right-7 flex items-center justify-center after:content-[''] after:w-full after:h-full after:bg-[#0000003a] after:absolute after:left-0 after:top-0 after:z-2 after:rounded-full overflow-hidden group">
+                    <img id="imgNext" class="group-hover:left-0 group-hover:opacity-100 group-hover:h-full group-hover:top-0 w-full h-0 object-cover opacity-0 rounded-full absolute left-2/3 duration-200 top-1/2" src="img/01.jpg" alt="">
+                    <i class="ri-arrow-right-s-line text-[#ffffffb9] text-4xl relative z-3"></i>
+                </span>
+            </div>
+            <!-- //////////////////////////////End Header///////////////////////// -->
+            <div class="w-full h-1/3 xs:h-67.5 md:h-17.5 relative xs:py-7 md:py-0 md:-mt-20 flex justify-center md:px-2">
+                <div class="w-11/12 md:w-full lg:w-245 h-full md:gap-4 flex flex-col md:flex-row items-center justify-end md:justify-between bg-white md:bg-[#ffffffdd] text-white px-5 md:px-2 lg:px-5 py-1 xs:font-medium">
+                    <div class="w-full md:w-72 lg:w-75 h-1/3 md:h-full text-[#585858] flex flex-col justify-center xs:mb-2 md:mb-0">
+                        <div class="flex items-center">
+                            <i class="ri-map-pin-fill text-[14px] ml-1 flex -mt-1 text-[#916e27]"></i>
+                            <span class="text-[13px] text-[#444444] mt-1">انتخاب هتل</span>
+                        </div>
+                        <div class="flex items-center justify-between border-b border-black">
+                            <span class="text-[13px] xss:text-[14px] md:text-[13px] lg:text-[14px]">هتل اسپیناس پالاس - تهران سعادت آباد</span> 
+                            <i class="text-[#916e27] ri-arrow-left-s-line text-3xl"></i>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-72 lg:w-75 h-1/3 md:h-full text-[#585858] flex flex-col justify-center">
+                        <div class="flex items-center">
+                            <i class="text-[#916e27] ri-calendar-2-fill text-[14px] ml-1 flex -mt-1"></i>
+                            <span class="text-[13px] text-[#444444] mt-1">1 شب</span>
+                        </div>
+                        <div class="flex items-center justify-between border-b border-black">
+                            <span class="text-[13px] xss:text-[14px] md:text-[13px] lg:text-[14px]">1404/12/01 - 1404/12/02</span> 
+                            <i class="text-[#916e27] ri-arrow-left-s-line text-3xl"></i>
+                        </div>
+                    </div>
+                    <div class="w-11/12 md:w-60 lg:w-64 h-1/4 md:h-12 mt-3 md:mt-0 bg-[#1c1c1c] flex items-center justify-center cursor-pointer"><button class="text-[13px] cursor-pointer">بررسی موجود بودن اتاق</button></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ///////////////////////////////////////////////// END SEC1 //////////////////////////////////////////// -->
+
+    <section class="w-full 2xl:container mx-auto">
+        <div class="w-full mt-23 xs:mt-85 md:mt-28 px-4 md:px-7 lg:px-10">
+            <div class="w-full h-full md:flex">
+                <div class="w-full md:w-5/12 md:pt-12 lg:pt-14 text-justify flex flex-col items-center md:items-start">
+                    <h1 class="text-2xl font-extrabold mb-1.5">هتل اسپیناس پالاس</h1>
+                    <h3 class="text-[20px] text-[#CEA781] mb-5">اوج احساسات</h3>
+                    <p class="text-[#4f4f4f] text-[17px] leading-7.5 pb-4 md:pb-0">هتل اسپیناس پالاس که با افتخار در شمال تهران ایستاده است، گوهری پنهان و بهشتی آرام، فضای زیبای یک هتل مجلل واقعی را تابیده است. کاخ اسپیناس بهترین و بهترین راحتی مدرن معاصر را با طعمی تماشایی برای گذشته ترکیب می کند. به عنوان یکی از ممتازترین ساختمان‌های تهران با معماری هیجان‌انگیز، کاخ زیبا یک نقطه عطف شهری با ابهت است که دارای لابی باشکوه، فضاهای عمومی چشمگیر و اتاق‌خواب‌های بسیار راحت است. هتل اسپیناس پالاس هتلی با استعداد در خدمات است. اقامت در کاخ همیشه یک زمان خاص برای مهمانان ما است. کاخ دارای تمام امکانات و خدمات یک هتل پنج ستاره لوکس همراه با جاذبه و فضایی منحصر به فرد در خانه است.</p>
+                </div>
+                <div class="w-full md:w-7/12">
+                    <figure class="w-full md:pr-5 xl:pr-0 flex justify-center md:justify-end"><img src="img/sec2.png" alt=""></figure>
+                </div>
+            </div>
+        </div>
+        <!-- /////////////////////////// -->
+        <div class="w-full mt-12.5">
+            <div class="w-full px-4 xl:px-7 md:flex flex-wrap">
+                <div class="w-full md:w-1/2 lg:w-1/4 lg:px-[25px] 2xl:px-7 flex flex-col items-center justify-center md:pt-7.5 md:border-l border-[#c3c3c3]">
+                    <div class="w-12 h-12 rounded-full border-4 border-[#e6ae5e] flex justify-center items-center mb-2.5"><i class="text-[#e6ae5e] ri-star-line text-3xl"></i></div>
+                    <span class="text-[18px] font-bold leading-6 pb-3.5">گارانتی بهترین نرخ</span>
+                    <span class="leading-6.5 text-[#686868] text-center">بهترین نرخ اتاق برای رزرو آنلاین از طریق وب سایت</span>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/4 lg:px-3 2xl:px-2 flex flex-col items-center justify-center pt-7.5 lg:border-l border-[#c3c3c3]">
+                    <i class="text-[#e6ae5e] ri-calendar-close-line text-5xl mb-2.5 font-extralight"></i>
+                    <span class="text-[18px] font-bold leading-6 pb-3.5">روم سرویس</span>
+                    <span class="leading-6.5 text-[#686868] text-center">ارائه خدمات بیست و چهار ساعته روم سرویس در اتاق ها</span>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/4 lg:px-3 2xl:px-4 flex flex-col items-center justify-center pt-7.5 md:border-l border-[#c3c3c3] md:mt-7.5 lg:mt-0">
+                    <i class="text-[#e6ae5e] ri-wifi-line text-5xl mb-2.5"></i>
+                    <span class="text-[18px] font-bold leading-6 pb-3.5">اینترنت بی سیم</span>
+                    <span class="leading-6.5 text-[#686868] text-center">فراهم بودن اینترنت نامحدود بی سیم با پهنای باند بالا</span>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/4 lg:px-3 2xl:px-2.5 flex flex-col items-center justify-center pt-7.5 md:mt-7.5 lg:mt-0">
+                    <i class="text-[#e6ae5e] ri-customer-service-2-line text-5xl mb-2.5"></i>
+                    <span class="text-[18px] font-bold leading-6 pb-3.5">رزرواسیون شبانه روزی</span>
+                    <span class="leading-6.5 text-[#686868] text-center">امکان رزرو آنلاین اتاق به صورت 24 ساعته و هر روز هفته</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ///////////////////////////////////////////////// END SEC2 ////////////////////////////////////////// -->
+
+    <section class="w-full 2xl:container mx-auto bg-[#ececec] mt-15 lg:mt-13 p-[50px_15px_30px_15px] md:p-[70px_30px_80px_30px] lg:p-[128px_30px_80px_30px]">
+        <div class="w-full h-full">
+            <div class="w-full flex">
+                <div class="w-full text-center lg:text-justify lg:w-3/5">
+                    <h5 class="text-[12px] font-semibold mb-1.5">- اتاق ها و سوئیت های هتل اسپیناس پالاس</h5>
+                    <h2 class="text-4xl font-medium">تجربه ای منحصر به فرد در انتظار شماست</h2>
+                    <p class="text-[#686868] text-justify mt-5 px-2.5 lg:px-0">اسپیناس پالاس با احترام به کسانی که این هتل را برای اقامت خود انتخاب می کنند، تمامی امکانات و سرویس های رفاهی یک هتل پنج ستاره ی لوکس را دارا می باشد. لابی این هتل مطابق بروزترین مدل طراحی شده است. این هتل مجلل با 400 اتاق هر آن چیزی که مهمان برای تجربه اقامتی خاص با منظره ای نمادین از شهر تهران نیاز دارد، دارا می باشد.</p>
+                </div>
+                <div class="hidden lg:flex justify-end w-2/5 pt-9">
+                    <div class="w-60 h-9.5 bg-[#cdcdcd] flex justify-center items-center cursor-pointer duration-300 group *:duration-300 hover:bg-black hover:*:text-white">
+                        <span class="text-[12px] text-[#5a5a5a] font-bold ml-2">مشاهده لیست اتاق ها</span>
+                        <i class="ri-arrow-right-long-line text-[#5a5a5a] translate-x-0 group-hover:translate-x-1"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full mt-14 overflow-hidden">
+                <div id="bus" class="w-full flex trans *:trans *:select-none">
+                    <div class="w-full card shrink-0 px-2.5 md:px-3 lg:px-2.5 xl:px-4 md:w-1/2 lg:w-1/3">
+                        <div class="w-full group">
+                            <figure class="w-full overflow-hidden relative after:content-[''] after:w-full after:h-full after:absolute after:duration-400 after:bg-[#00000000] after:top-0 after:left-0 group-hover:after:bg-[#00000093]"><img class="duration-400 scale-100 group-hover:scale-125" src="img/junior-suit-head3.jpg" alt=""></figure>
+                            <div class="w-full px-10 bg-white pb-5">
+                                <div class="w-full py-7 lg:pb-4 2xl:pb-0">
+                                    <h2 class="text-[22px] xs:text-2xl font-bold">سوئیت جونیور</h2>
+                                    <span class="text-[#b0b0b0] text-[13px] xl:text-[14px] flex py-2.5 font-semibold">55 متر مربع | چشم انداز شهر/کوه | بدون بالکن</span>
+                                    <p class="text-[#686868] font-medium text-justify md:h-48 ml:h-36 lg:h-54 xl:h-42">طراحی منحصربه فرد این سوئیت ها با هدف جلب رضایت شما و به منظور جذابیت ظاهری هرچه بیشتر صورت پذیرفته است. آرامش در جای جای این سوئیت ها موج می زند و شما با اقامت در آن ها از انتخاب خود لذت خواهید برد.</p>
+                                </div>
+                                <div class="w-full border-t border-[#c9c9c9e5] flex justify-between py-4">
+                                    <span class="text-[13px] flex items-center text-[#2b2b2b] font-medium">از <b class="text-[#E4A853]"> ---- </b> تومان/هرشب</span>
+                                    <div class="flex items-center cursor-pointer duration-400 *:duration-400 bg-white hover:bg-[#eca23a] hover:*:text-white">
+                                        <span class="text-[12px] text-[#1b1b1b] h-full flex items-center peer font-bold">جزییات بیشتر</span>
+                                        <i class="ri-arrow-right-long-line h-full flex items-center text-[#E4A853] translate-x-0 pr-1.5 hover:translate-x-1 peer-hover:translate-x-1"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full card shrink-0 px-2.5 md:px-3 lg:px-2.5 xl:px-4 md:w-1/2 lg:w-1/3">
+                        <div class="w-full group">
+                            <figure class="w-full overflow-hidden relative after:content-[''] after:w-full after:h-full after:absolute after:duration-400 after:bg-[#00000000] after:top-0 after:left-0 group-hover:after:bg-[#00000093]"><img class="duration-400 scale-100 group-hover:scale-125" src="img/signature-suit-head1.jpg" alt=""></figure>
+                            <div class="w-full px-10 bg-white pb-5">
+                                <div class="w-full py-7 lg:pb-4 2xl:pb-0">
+                                    <h2 class="text-[22px] xs:text-2xl font-bold">سوئیت سینگچر</h2>
+                                    <span class="text-[#b0b0b0] text-[13px] xl:text-[14px] flex py-2.5 font-semibold">125 متر مربع | چشم انداز کوه | بدون بالکن</span>
+                                    <p class="text-[#686868] font-medium text-justify md:h-48 ml:h-36 lg:h-54 xl:h-42">پرده های مجلل و لوازم پر زرق و برق لوکس به این سوئیت رنگ و بوی ایرانی متفاوتی داده است. اتاق خواب این سوئیت بزرگ، جادار و راحت است. همچنین اتاق نشیمن جداگانه ای با مبلمان شیک و باوقار طراحی شده است.</p>
+                                </div>
+                                <div class="w-full border-t border-[#c9c9c9e5] flex justify-between py-4">
+                                    <span class="text-[13px] flex items-center text-[#2b2b2b] font-medium">از <b class="text-[#E4A853]"> ---- </b> تومان/هرشب</span>
+                                    <div class="flex items-center cursor-pointer duration-400 *:duration-400 bg-white hover:bg-[#eca23a] hover:*:text-white">
+                                        <span class="text-[12px] text-[#1b1b1b] h-full flex items-center peer font-bold">جزییات بیشتر</span>
+                                        <i class="ri-arrow-right-long-line h-full flex items-center text-[#E4A853] translate-x-0 pr-1.5 hover:translate-x-1 peer-hover:translate-x-1"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full card shrink-0 px-2.5 md:px-3 lg:px-2.5 xl:px-4 md:w-1/2 lg:w-1/3">
+                        <div class="w-full group">
+                            <figure class="w-full overflow-hidden relative after:content-[''] after:w-full after:h-full after:absolute after:duration-400 after:bg-[#00000000] after:top-0 after:left-0 group-hover:after:bg-[#00000093]"><img class="duration-400 scale-100 group-hover:scale-125" src="img/standard-twinroom-head2.jpg" alt=""></figure>
+                            <div class="w-full px-10 bg-white pb-5">
+                                <div class="w-full py-7 lg:pb-4 2xl:pb-0">
+                                    <h2 class="text-[22px] xs:text-2xl font-bold">اتاق تویین استاندارد</h2>
+                                    <span class="text-[#b0b0b0] text-[13px] xl:text-[14px] flex py-2.5 font-semibold">35 متر مربع | چشم انداز شهر/کوه | بدون بالکن</span>
+                                    <p class="text-[#686868] font-medium text-justify md:h-48 ml:h-36 lg:h-54 xl:h-42">هر اتاق دو نفره ی تویین شامل سیستم تهویه ی مطبوع هوا، تلویزیون مسطح همراه با کانال های تلویزیونی بین المللی، اینترنت، دو تخت یک نفره و سرویس بهداشتی و حمام می باشد. این اتاق ها به دلیل ادغام مدرنیته و سنت، در عین زیبایی، راحتی را هم برای شما به ارمغان می آورند.</p>
+                                </div>
+                                <div class="w-full border-t border-[#c9c9c9e5] flex justify-between py-4">
+                                    <span class="text-[13px] flex items-center text-[#2b2b2b] font-medium">از <b class="text-[#E4A853]"> ---- </b> تومان/هرشب</span>
+                                    <div class="flex items-center cursor-pointer duration-400 *:duration-400 bg-white hover:bg-[#eca23a] hover:*:text-white">
+                                        <span class="text-[12px] text-[#1b1b1b] h-full flex items-center peer font-bold">جزییات بیشتر</span>
+                                        <i class="ri-arrow-right-long-line h-full flex items-center text-[#E4A853] translate-x-0 pr-1.5 hover:translate-x-1 peer-hover:translate-x-1"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full card shrink-0 px-2.5 md:px-3 lg:px-2.5 xl:px-4 md:w-1/2 lg:w-1/3">
+                        <div class="w-full group">
+                            <figure class="w-full overflow-hidden relative after:content-[''] after:w-full after:h-full after:absolute after:duration-400 after:bg-[#00000000] after:top-0 after:left-0 group-hover:after:bg-[#00000093]"><img class="duration-400 scale-100 group-hover:scale-125" src="img/royal-room-head2.jpg" alt=""></figure>
+                            <div class="w-full px-10 bg-white pb-5">
+                                <div class="w-full py-7 lg:pb-4 2xl:pb-0">
+                                    <h2 class="text-[20px] xs:text-2xl md:text-[21px] ml:text-2xl lg:text-[18.5px] lx:text-[22px] xl:text-2xl font-bold">اتاق بالکن دار خانوادگی رویال</h2>
+                                    <span class="text-[#b0b0b0] text-[13px] xl:text-[14px] flex py-2.5 font-semibold">55 متر مربع | چشم انداز کوه | با بالکن</span>
+                                    <p class="text-[#686868] font-medium text-justify md:h-48 ml:h-36 lg:h-54 xl:h-42">این اتاق با فضایی جادار و چشم اندازی رو به رشته کوه البرز، برای خانواده هایی که فرزندان کم سن و سال دارند و یا میهمان هایی که به صورت گروهی سفر می کنند مناسب است.</p>
+                                </div>
+                                <div class="w-full border-t border-[#c9c9c9e5] flex justify-between py-4">
+                                    <span class="text-[13px] flex items-center text-[#2b2b2b] font-medium">از <b class="text-[#E4A853]"> ---- </b> تومان/هرشب</span>
+                                    <div class="flex items-center cursor-pointer duration-400 *:duration-400 bg-white hover:bg-[#eca23a] hover:*:text-white">
+                                        <span class="text-[12px] text-[#1b1b1b] h-full flex items-center peer font-bold">جزییات بیشتر</span>
+                                        <i class="ri-arrow-right-long-line h-full flex items-center text-[#E4A853] translate-x-0 pr-1.5 hover:translate-x-1 peer-hover:translate-x-1"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full card shrink-0 px-2.5 md:px-3 lg:px-2.5 xl:px-4 md:w-1/2 lg:w-1/3">
+                        <div class="w-full group">
+                            <figure class="w-full overflow-hidden relative after:content-[''] after:w-full after:h-full after:absolute after:duration-400 after:bg-[#00000000] after:top-0 after:left-0 group-hover:after:bg-[#00000093]"><img class="duration-400 scale-100 group-hover:scale-125" src="img/royal-room-head3.jpg" alt=""></figure>
+                            <div class="w-full px-10 bg-white pb-5">
+                                <div class="w-full py-7 lg:pb-4 2xl:pb-0">
+                                    <h2 class="text-[22px] xs:text-2xl font-bold">اتاق خانوادگی رویال</h2>
+                                    <span class="text-[#b0b0b0] text-[13px] xl:text-[14px] flex py-2.5 font-semibold">45 متر مربع | چشم انداز کوه | بدون بالکن</span>
+                                    <p class="text-[#686868] font-medium text-justify md:h-48 ml:h-36 lg:h-54 xl:h-42">دکوراسیون این اتاق بیانگر شکوه و عظمت فرهنگ و سنت می باشد. با اقامت در این اتاق، همراه با اعضای خانواده تان از امکانات، تجهیزات و دکوراسیون ویژه ی آن لذت ببرید و لحظه های خود را ماندگار سازید.</p>
+                                </div>
+                                <div class="w-full border-t border-[#c9c9c9e5] flex justify-between py-4">
+                                    <span class="text-[13px] flex items-center text-[#2b2b2b] font-medium">از <b class="text-[#E4A853]"> ---- </b> تومان/هرشب</span>
+                                    <div class="flex items-center cursor-pointer duration-400 *:duration-400 bg-white hover:bg-[#eca23a] hover:*:text-white">
+                                        <span class="text-[12px] text-[#1b1b1b] h-full flex items-center peer font-bold">جزییات بیشتر</span>
+                                        <i class="ri-arrow-right-long-line h-full flex items-center text-[#E4A853] translate-x-0 pr-1.5 hover:translate-x-1 peer-hover:translate-x-1"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full card shrink-0 px-2.5 md:px-3 lg:px-2.5 xl:px-4 md:w-1/2 lg:w-1/3">
+                        <div class="w-full group">
+                            <figure class="w-full overflow-hidden relative after:content-[''] after:w-full after:h-full after:absolute after:duration-400 after:bg-[#00000000] after:top-0 after:left-0 group-hover:after:bg-[#00000093]"><img class="duration-400 scale-100 group-hover:scale-125" src="img/standard-room-head1.jpg" alt=""></figure>
+                            <div class="w-full px-10 bg-white pb-5">
+                                <div class="w-full py-7 lg:pb-4 2xl:pb-0">
+                                    <h2 class="text-[22px] xs:text-2xl font-bold">اتاق دبل استاندارد</h2>
+                                    <span class="text-[#b0b0b0] text-[13px] xl:text-[14px] flex py-2.5 font-semibold">35 متر مربع | چشم انداز شهر/کوه | بدون بالکن</span>
+                                    <p class="text-[#686868] font-medium text-justify md:h-48 ml:h-36 lg:h-54 xl:h-42">هر اتاق دو تخته ی دبل شامل سیستم تهویه ی مطبوع هوا، تلویزیون مسطح همراه با کانال های تلویزیون بین المللی، اینترنت، تخت دونفره ی دبل و سرویس بهداشتی و حمام می باشد. این اتاق ها به دلیل ادغام مدرنیته و سنت، در عین زیبایی، راحتی را هم برای شما به ارمغان می آورند.</p>
+                                </div>
+                                <div class="w-full border-t border-[#c9c9c9e5] flex justify-between py-4">
+                                    <span class="text-[13px] flex items-center text-[#2b2b2b] font-medium">از <b class="text-[#E4A853]"> ---- </b> تومان/هرشب</span>
+                                    <div class="flex items-center cursor-pointer duration-400 *:duration-400 bg-white hover:bg-[#eca23a] hover:*:text-white">
+                                        <span class="text-[12px] text-[#1b1b1b] h-full flex items-center peer font-bold">جزییات بیشتر</span>
+                                        <i class="ri-arrow-right-long-line h-full flex items-center text-[#E4A853] translate-x-0 pr-1.5 hover:translate-x-1 peer-hover:translate-x-1"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full card shrink-0 px-2.5 md:px-3 lg:px-2.5 xl:px-4 md:w-1/2 lg:w-1/3">
+                        <div class="w-full group">
+                            <figure class="w-full overflow-hidden relative after:content-[''] after:w-full after:h-full after:absolute after:duration-400 after:bg-[#00000000] after:top-0 after:left-0 group-hover:after:bg-[#00000093]"><img class="duration-400 scale-100 group-hover:scale-125" src="img/palace-suit-head1.jpg" alt=""></figure>
+                            <div class="w-full px-10 bg-white pb-5">
+                                <div class="w-full py-7 lg:pb-4 2xl:pb-0">
+                                    <h2 class="text-[22px] xs:text-2xl font-bold">سوئیت رویال</h2>
+                                    <span class="text-[#b0b0b0] text-[13px] xl:text-[14px] flex py-2.5 font-semibold">120 متر مربع | چشم انداز شهر/کوه | بدون بالکن</span>
+                                    <p class="text-[#686868] font-medium text-justify md:h-48 ml:h-36 lg:h-54 xl:h-42">اقامت در سوئیت بیزینس رویال به شما احساس سلبریتی بودن می دهد! امکانات و تجهیزاتی که در این اتاق وجود دارد به مجلل ترین شکل ممکن کنار هم گرد آمده است تا شما را عمیقا تحت تاثیر قرار داده و آرامش بی نظیری را به شما القا کند.</p>
+                                </div>
+                                <div class="w-full border-t border-[#c9c9c9e5] flex justify-between py-4">
+                                    <span class="text-[13px] flex items-center text-[#2b2b2b] font-medium">از <b class="text-[#E4A853]"> ---- </b> تومان/هرشب</span>
+                                    <div class="flex items-center cursor-pointer duration-400 *:duration-400 bg-white hover:bg-[#eca23a] hover:*:text-white">
+                                        <span class="text-[12px] text-[#1b1b1b] h-full flex items-center peer font-bold">جزییات بیشتر</span>
+                                        <i class="ri-arrow-right-long-line h-full flex items-center text-[#E4A853] translate-x-0 pr-1.5 hover:translate-x-1 peer-hover:translate-x-1"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full card shrink-0 px-2.5 md:px-3 lg:px-2.5 xl:px-4 md:w-1/2 lg:w-1/3">
+                        <div class="w-full group">
+                            <figure class="w-full overflow-hidden relative after:content-[''] after:w-full after:h-full after:absolute after:duration-400 after:bg-[#00000000] after:top-0 after:left-0 group-hover:after:bg-[#00000093]"><img class="duration-400 scale-100 group-hover:scale-125" src="img/sky-lounge.jpg" alt=""></figure>
+                            <div class="w-full px-10 bg-white pb-5">
+                                <div class="w-full py-7 lg:pb-4 2xl:pb-0">
+                                    <h2 class="text-[22px] xs:text-2xl font-bold">سوئیت اسکای</h2>
+                                    <span class="text-[#b0b0b0] text-[13px] xl:text-[14px] flex py-2.5 font-semibold">250 متر مربع | چشم انداز کوه | با بالکن</span>
+                                    <p class="text-[#686868] font-medium text-justify md:h-48 ml:h-36 lg:h-54 xl:h-42">این سوئیت در مرتفع ترین نقطه ی هتل اسپیناس پالاس در یک طبقه ی مستقل قرار گرفته است. می توان ادعا کرد که این سوئیت مرتفع ترین سوئیت تهران است. نیازهایی که از یک سوئیت مجلل دارید همگی در این سوئیت پاسخ داده می شوند.</p>
+                                </div>
+                                <div class="w-full border-t border-[#c9c9c9e5] flex justify-between py-4">
+                                    <span class="text-[13px] flex items-center text-[#2b2b2b] font-medium">از <b class="text-[#E4A853]"> ---- </b> تومان/هرشب</span>
+                                    <div class="flex items-center cursor-pointer duration-400 *:duration-400 bg-white hover:bg-[#eca23a] hover:*:text-white">
+                                        <span class="text-[12px] text-[#1b1b1b] h-full flex items-center peer font-bold">جزییات بیشتر</span>
+                                        <i class="ri-arrow-right-long-line h-full flex items-center text-[#E4A853] translate-x-0 pr-1.5 hover:translate-x-1 peer-hover:translate-x-1"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex lg:hidden justify-center w-full mt-14 xs:mt-16 md:mt-18">
+                <div class="w-60 h-9.5 bg-[#cdcdcd] flex justify-center items-center cursor-pointer duration-300 group *:duration-300 hover:bg-black hover:*:text-white">
+                    <span class="text-[12px] text-[#5a5a5a] font-bold ml-2">مشاهده لیست اتاق ها</span>
+                    <i class="ri-arrow-right-long-line text-[#5a5a5a] translate-x-0 group-hover:translate-x-1"></i>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- ////////////////////////////////////// END SEC3 /////////////////////////////////////////////////////// -->
+
+    <section class="w-full 2xl:container mx-auto bg-[url(../img/espinas_spa_bg.jpg)]">
+        <div class="w-full p-[50px_15px_0] lg:px-6 lx:px-7 xl:px-8 md:flex md:flex-col md:items-center">
+            <figure class="w-full flex justify-center mt-4"><img src="img/espinas_palace_wellness_center.png" alt=""></figure>
+            <div class="w-full text-center my-5 md:w-2/3 lg:w-3/5 2xl:w-1/2">
+                <span class="text-[#EBBC79] text-[15px] w-full justify-center flex mb-2.5">حس آرامش و جوانی</span>
+                <h2 class="text-white text-3xl md:text-4xl mb-4 font-medium">در اسپیناس پالاس از سلامتی خود مراقبت کنید</h2>
+                <p class="text-white text-[15px] mb-5">مرکز سلامتی هتل اسپیناس پالاس با در برداشتن فضای مجزا برای خانم ها و آقایان و بهره مندی از تیم حرفه ای، مجموعه ای کامل از خدمات سلامتی و زیبایی را ارائه می دهد تا تجربه ای بی نظیر و آرامش بخش داشته باشید.</p>
+            </div>
+
+            <div class="w-full h-230 xs:h-172 xsm:h-160 md:h-110 ml:h-100 lg:h-111">
+                <div class="flex flex-wrap justify-center">
+                    <div class="flex flex-col py-8 mx-5.5 md:mx-7 lg:mx-11">
+                        <figure id="healItem" class="w-22 h-22 lg:w-23 lg:h-23 cursor-pointer rounded-full bg-[#FFFFFF30] text-white flex justify-center items-center hover:bg-[#EBBC79] mb-2.5"><img src="img/pool-icon.png" alt=""></figure>
+                        <span class="text-[18px] text-white flex font-medium md:font-bold">استخر و سونا</span>
+                    </div>
+                    <div class="flex flex-col py-8 mx-5.5 md:mx-7 lg:mx-11">
+                        <figure id="healItem" class="w-22 h-22 lg:w-23 lg:h-23 cursor-pointer rounded-full bg-[#FFFFFF30] text-white flex justify-center items-center hover:bg-[#EBBC79] mb-2.5"><img src="img/spa-icon.png" alt=""></figure>
+                        <span class="text-[18px] text-white flex font-medium md:font-bold">خدمات ماساژ</span>
+                    </div>
+                    <div class="flex flex-col py-8 mx-5.5 md:mx-7 lg:mx-11">
+                        <figure id="healItem" class="w-22 h-22 lg:w-23 lg:h-23 cursor-pointer rounded-full bg-[#FFFFFF30] text-white flex justify-center items-center hover:bg-[#EBBC79] mb-2.5"><img src="img/gym-icon.png" alt=""></figure>
+                        <span class="text-[18px] text-white flex font-medium md:font-bold">تناسب اندام</span>
+                    </div>
+                </div>
+
+                <div id="heal" class="w-full flex flex-wrap shadow-[1px_2px_30px_#00000050]">
+                    <div class="w-full md:w-1/2 h-75 md:h-auto bg-[url(../img/espinas_palace_pool.jpg)] bg-cover bg-center relative z-2"></div>
+                    <div class="bg-white w-full md:w-1/2 p-7.5 lg:py-10 lg:px-20 lx:py-13 lx:px-22 xl:py-16 xl:px-24">
+                        <span class="flex text-[#686868] mb-3">مرکز سلامتی هتل اسپیناس پالاس</span>
+                        <h2 class="text-3xl mb-8 font-semibold xs:font-bold">استخر و سونا</h2>
+                        <p class="text-[#686868] text-justify flex justify-center leading-6.5 font-medium mb-20 lx:mb-22 xl:mb-24">حس آرامش و جوانی را در مرکز سلامت لوکس ما، که در طبقه ی منفی 3 قرار گرفته است تجربه کنید. ساعاتی به دور ازشلوغی و آلودگی شهر باشید. مرکز سلامتی هتل اسپیناس پالاس با در برداشتن فضای اختصاصی مجزا برای خانم ها و آقایان و بهره مندی از تیم حرفه ای مجموعه ای کامل از خدمات سلامتی و زیبایی را ارائه می دهد.</p>
+
+                        <div class="w-full">
+                            <div class="w-36 h-10 md:w-37 md:h-11 rounded-3xl bg-[#f5f5f5] border flex justify-center items-center cursor-pointer duration-300 group *:duration-300 hover:bg-black hover:*:text-white">
+                                <span class="text-[12px] text-black font-bold ml-2">ادامه مطلب</span>
+                                <i class="ri-arrow-right-long-line text-[#EBBC79] translate-x-0 group-hover:translate-x-1"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="heal" class="w-full hidden flex-wrap shadow-[1px_2px_30px_#00000050]">
+                    <div class="w-full md:w-1/2 h-75 md:h-auto bg-[url(../img/espinas_palace_massage.jpg)] bg-cover bg-center relative z-2"></div>
+                    <div class="bg-white w-full md:w-1/2 p-7.5 lg:py-10 lg:px-20 lx:py-13 lx:px-22 xl:py-16 xl:px-24">
+                        <span class="flex text-[#686868] mb-3">مرکز سلامتی هتل اسپیناس پالاس</span>
+                        <h2 class="text-3xl mb-8 font-semibold xs:font-bold">خدمات ماساژ</h2>
+                        <p class="text-[#686868] text-justify flex justify-center leading-6.5 font-medium mb-20 lx:mb-22 xl:mb-24">وارد محیط آرام اسپای اسپیناس شوید که به زیبایی برای تمرکز بر آرامش و تجدید قوا طراحی شده است. برای مهمانانی که می خواهند یک تجربه ماساژ فراموش نشدنی داشته باشند، به شما توصیه می کنیم از قبل قرار خود را با کارشناسان حرفه ای ما رزرو کنید.</p>
+
+                        <div class="w-full">
+                            <div class="w-36 h-10 md:w-37 md:h-11 rounded-3xl bg-[#f5f5f5] border flex justify-center items-center cursor-pointer duration-300 group *:duration-300 hover:bg-black hover:*:text-white">
+                                <span class="text-[12px] text-black font-bold ml-2">ادامه مطلب</span>
+                                <i class="ri-arrow-right-long-line text-[#EBBC79] translate-x-0 group-hover:translate-x-1"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="heal" class="w-full hidden flex-wrap shadow-[1px_2px_30px_#00000050]">
+                    <div class="w-full md:w-1/2 h-75 md:h-auto bg-[url(../img/espinas_palace_gym.jpg)] bg-cover bg-center relative z-2"></div>
+                    <div class="bg-white w-full md:w-1/2 p-7.5 lg:py-10 lg:px-20 lx:py-13 lx:px-22 xl:py-16 xl:px-24">
+                        <span class="flex text-[#686868] mb-3">مرکز سلامتی هتل اسپیناس پالاس</span>
+                        <h2 class="text-3xl mb-8 font-semibold xs:font-bold">باشگاه تناسب اندام</h2>
+                        <p class="text-[#686868] text-justify flex justify-center leading-6.5 font-medium mb-20 lx:mb-22 xl:mb-24">تناسب اندام را بدون زحمت در برنامه سفر خود بگنجانید و با تجهیزات پیشرفته، استخر و سونا هتل خوش فرم بمانید. خدمات بهداشتی لوکس ما در طبقه -3 واقع شده است و حس آرامش و تجدید قوا را در شهر شلوغ ارائه می دهد.</p>
+
+                        <div class="w-full">
+                            <div class="w-36 h-10 md:w-37 md:h-11 rounded-3xl bg-[#f5f5f5] border flex justify-center items-center cursor-pointer duration-300 group *:duration-300 hover:bg-black hover:*:text-white">
+                                <span class="text-[12px] text-black font-bold ml-2">ادامه مطلب</span>
+                                <i class="ri-arrow-right-long-line text-[#EBBC79] translate-x-0 group-hover:translate-x-1"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ////////////////////////////////////////// END SEC4 /////////////////////////////////////////////// -->
+
+    <section class="w-full 2xl:container mx-auto mt-80 md:mt-85 lg:mt-90 xl:mt-95">
+        <div class="w-full">
+            <div class="w-full px-[15px] text-center">
+                <span class="text-[15px] text-[#a6a6a6] mb-1.5 flex justify-center font-medium">رستوران های هتل اسپیناس پالاس</span>
+                <h3 class="text-[35px] md:text-[40px] font-medium leading-11">رستوران های ایرانی و بین المللی</h3>
+                <p class="text-[#686868] mt-3.5 mb-5.5 md:mt-5 md:mb-20">طعم های ناب و غذاهای خلاقانه را با هنر بی نظیر آشپزی سرآشپزهای ستاره دار ما، کشف کنید.</p>
+            </div>
+            <!-- /////////////////// -->
+            <div class="w-full h-dvh">
+                <div class="w-full flex h-3/5 xsm:h-5/6 md:h-11/12 lg:h-2/3 lx:h-3/4 xl:h-4/5 relative overflow-hidden">
+                    <div class="absolute bottom-0 right-0.5 xsm:right-1 lg:right-27 lx:right-25 xl:right-29">
+                        <span onclick="nextRes()" class="w-12 h-12 xs:w-13.5 xs:h-13.5 xsm:w-19 xsm:h-19 lg:w-13 lg:h-13 lx:w-15 lx:h-15 xl:w-16 xl:h-16 bg-[#333239] duration-100 hover:bg-[#EBBC79] cursor-pointer flex justify-center items-center relative z-10 mb-0.5"><i class="ri-arrow-left-long-line text-[14px] xsm:text-[16px] lg:text-[14px] xl:text-[15px] text-white"></i> </span>
+                        <span onclick="prevRes()" class="w-12 h-12 xs:w-13.5 xs:h-13.5 xsm:w-19 xsm:h-19 lg:w-13 lg:h-13 lx:w-15 lx:h-15 xl:w-16 xl:h-16 bg-[#333239] duration-100 hover:bg-[#EBBC79] cursor-pointer flex justify-center items-center relative z-10"><i class="ri-arrow-right-long-line text-[14px] xsm:text-[16px] lg:text-[14px] xl:text-[15px] text-white"></i> </span>
+                    </div>
+
+                    <div id="resBus" class="w-full h-full flex trans flex-row-reverse *:select-none">
+                        <div class="resCard shrink-0 w-full h-full relative bg-[url(../img/espinas_skylounge_restaurant.jpg)] bg-cover bg-no-repeat bg-center">
+                            <div class="w-67 h-30 xs:w-90 xs:h-54 xsm:w-118 xsm:h-70 md:w-134 md:h-80 lg:w-100 lg:h-65 lx:w-110 lx:h-74 xl:w-129 xl:h-85 bg-[#fcfcfc] absolute bottom-0 right-12.5 xs:right-14 xsm:right-20 lg:right-40 xl:right-45 border border-[#83838367] flex flex-col justify-center items-end xs:items-start px-5 xs:px-8 md:px-10 xl:px-16">
+                                <span class="text-[11px] md:text-[13px] lg:text-[12px] flex mb-1.5 xs:mb-1 md:mb-1.5 xl:mb-2">رستوران تلفیقی</span>
+                                <h2 class="text-[23px] xs:text-[27px] md:text-4xl lg:text-[28px] font-bold">اسکای لانژ</h2>
+                                <p class="hidden xs:flex text-[#494949] text-[12px] xsm:text-[14px] md:text-[16px] lg:text-[13px] xl:text-[15px] text-justify my-3.5 xl:my-6 md:mb-7 lg:mb-6 xl:mb-10">یک مکان پر زرق و برق با منظره جادویی از شهر تهران و غذاهای بین المللی که توسط سرآشپز برجسته ما تهیه شده است. فضای پر جنب و جوش اسکای لانژ خاطره ای فراموش نشدنی را برای شما رقم خواهد زد.</p>
+                                <span class="hidden xs:flex justify-center items-center cursor-pointer w-19 h-5.5 md:w-22 md:h-7 lg:w-20 lg:h-6 xl:w-22 xl:h-7 rounded-4xl bg-[#000000c5] text-white text-[10px] md:text-[12px] lg:text-[10px] xl:text-[11px] border border-[#18181898] duration-200 hover:bg-white hover:text-black">مطالعه بیشتر</span>
+                            </div>
+                        </div>
+                        <div class="resCard shrink-0 w-full h-full relative bg-[url(../img/espinas_laton_restaurant.jpg)] bg-cover bg-no-repeat bg-center">
+                            <div class="w-67 h-30 xs:w-90 xs:h-54 xsm:w-118 xsm:h-70 md:w-134 md:h-80 lg:w-100 lg:h-65 lx:w-110 lx:h-74 xl:w-129 xl:h-85 bg-[#fcfcfc] absolute bottom-0 right-12.5 xs:right-14 xsm:right-20 lg:right-40 xl:right-45 border border-[#83838367] flex flex-col justify-center items-end xs:items-start px-5 xs:px-8 md:px-10 xl:px-16">
+                                <span class="text-[11px] md:text-[13px] lg:text-[12px] flex mb-1.5 xs:mb-1 md:mb-1.5 xl:mb-2">رستوران مدرن ایرانی و بین المللی</span>
+                                <h2 class="text-[23px] xs:text-[27px] md:text-4xl lg:text-[28px] font-bold">رستوران لاتون</h2>
+                                <p class="hidden xs:flex text-[#494949] text-[12px] xsm:text-[14px] md:text-[16px] lg:text-[13px] xl:text-[15px] text-justify my-4 xl:my-6 md:mb-7 lg:mb-6 xl:mb-10">خدمت رسانی صمیمی و گرم این رستوران همراه با تجارب و مهارت های آشپزهای چیره دست به شما اطمینان خاطر می دهد طعم و رنگ غذاها را به خاطر خواهید سپرد.</p>
+                                <span class="hidden xs:flex justify-center items-center cursor-pointer w-19 h-5.5 md:w-22 md:h-7 lg:w-20 lg:h-6 xl:w-22 xl:h-7 rounded-4xl bg-[#000000c5] text-white text-[10px] md:text-[12px] lg:text-[10px] xl:text-[11px] border border-[#18181898] duration-200 hover:bg-white hover:text-black">مطالعه بیشتر</span>
+                            </div>
+                        </div>
+                        <div class="resCard shrink-0 w-full h-full relative bg-[url(../img/espinas_diba_restaurant2.jpg)] bg-cover bg-no-repeat bg-center">
+                            <div class="w-67 h-30 xs:w-90 xs:h-54 xsm:w-118 xsm:h-70 md:w-134 md:h-80 lg:w-100 lg:h-65 lx:w-110 lx:h-74 xl:w-129 xl:h-85 bg-[#fcfcfc] absolute bottom-0 right-12.5 xs:right-14 xsm:right-20 lg:right-40 xl:right-45 border border-[#83838367] flex flex-col justify-center items-end xs:items-start px-5 xs:px-8 md:px-10 xl:px-16">
+                                <span class="text-[11px] md:text-[13px] lg:text-[12px] flex mb-1.5 xs:mb-1 md:mb-1.5 xl:mb-2">رستوران سنتی ایرانی</span>
+                                <h2 class="text-[23px] xs:text-[27px] md:text-4xl lg:text-[28px] font-bold">رستوران دیبا</h2>
+                                <p class="hidden xs:flex text-[#494949] text-[12px] xsm:text-[14px] md:text-[16px] lg:text-[13px] xl:text-[15px] text-justify my-4 xl:my-6 md:mb-7 lg:mb-6 xl:mb-10">طراحی خوش نقش و رمانتیک رستوران سنتی دیبا در نگاه اول شما را جذب خواهد کرد. همچنین غذاها و نوشیدنی های اصیل ایرانی همراه با رنگ و بویی سنتی سرو می شود.</p>
+                                <span class="hidden xs:flex justify-center items-center cursor-pointer w-19 h-5.5 md:w-22 md:h-7 lg:w-20 lg:h-6 xl:w-22 xl:h-7 rounded-4xl bg-[#000000c5] text-white text-[10px] md:text-[12px] lg:text-[10px] xl:text-[11px] border border-[#18181898] duration-200 hover:bg-white hover:text-black">مطالعه بیشتر</span>
+                            </div>
+                        </div>
+                        <div class="resCard shrink-0 w-full h-full relative bg-[url(../img/espinas_sunset_restaurant.jpg)] bg-cover bg-no-repeat bg-center">
+                            <div class="w-67 h-30 xs:w-90 xs:h-54 xsm:w-118 xsm:h-70 md:w-134 md:h-80 lg:w-100 lg:h-65 lx:w-110 lx:h-74 xl:w-129 xl:h-85 bg-[#fcfcfc] absolute bottom-0 right-12.5 xs:right-14 xsm:right-20 lg:right-40 xl:right-45 border border-[#83838367] flex flex-col justify-center items-end xs:items-start px-5 xs:px-8 md:px-10 xl:px-16">
+                                <span class="text-[11px] md:text-[13px] lg:text-[12px] flex mb-1.5 xs:mb-1 md:mb-1.5 xl:mb-2">کافی شاپ و سالن ویژه سیگار</span>
+                                <h2 class="text-[23px] xs:text-[27px] md:text-4xl lg:text-[28px] font-bold">کافه سان ست</h2>
+                                <p class="hidden xs:flex text-[#494949] text-[12px] xsm:text-[14px] md:text-[16px] lg:text-[13px] xl:text-[15px] text-justify my-3.5 xl:my-6 md:mb-7 lg:mb-6 xl:mb-10">نوشیدنی های سرد و گرم متنوعی در این کافه وجود دارد که می توان از آن ها لذت برد و میان وعده های سبک، مافین و انواع شیرینی های خوشمزه ی این کافه به شما پیشنهاد داده می شود.</p>
+                                <span class="hidden xs:flex justify-center items-center cursor-pointer w-19 h-5.5 md:w-22 md:h-7 lg:w-20 lg:h-6 xl:w-22 xl:h-7 rounded-4xl bg-[#000000c5] text-white text-[10px] md:text-[12px] lg:text-[10px] xl:text-[11px] border border-[#18181898] duration-200 hover:bg-white hover:text-black">مطالعه بیشتر</span>
+                            </div>
+                        </div>
+                        <div class="resCard shrink-0 w-full h-full relative bg-[url(../img/espinas_sunrise_restaurant.jpg)] bg-cover bg-no-repeat bg-center">
+                            <div class="w-67 h-30 xs:w-90 xs:h-54 xsm:w-118 xsm:h-70 md:w-134 md:h-80 lg:w-100 lg:h-65 lx:w-110 lx:h-74 xl:w-129 xl:h-85 bg-[#fcfcfc] absolute bottom-0 right-12.5 xs:right-14 xsm:right-20 lg:right-40 xl:right-45 border border-[#83838367] flex flex-col justify-center items-end xs:items-start px-5 xs:px-8 md:px-10 xl:px-16">
+                                <span class="text-[11px] md:text-[13px] lg:text-[12px] flex mb-1.5 xs:mb-1 md:mb-1.5 xl:mb-2">کافی شاپ و رستوران</span>
+                                <h2 class="text-[23px] xs:text-[27px] md:text-4xl lg:text-[28px] font-bold">کافه سان رایز</h2>
+                                <p class="hidden xs:flex text-[#494949] text-[12px] xsm:text-[14px] md:text-[16px] lg:text-[13px] xl:text-[15px] text-justify my-3.5 xl:my-6 md:mb-7 lg:mb-6 xl:mb-10">مکانی دنج و آرامش بخش برای کسانی است که به دنبال گریزی از شلوغی هستند. این کافه با ویویی فوق العاده از افق زیبای تهران، مکانی ایده آل برای استراحت با دوستان یا لذت بردن از لحظه ای آرام به تنهایی است.</p>
+                                <span class="hidden xs:flex justify-center items-center cursor-pointer w-19 h-5.5 md:w-22 md:h-7 lg:w-20 lg:h-6 xl:w-22 xl:h-7 rounded-4xl bg-[#000000c5] text-white text-[10px] md:text-[12px] lg:text-[10px] xl:text-[11px] border border-[#83838367] duration-200 hover:bg-white hover:text-black">مطالعه بیشتر</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ///////////////////////////////////////// END SEC5 ///////////////////////////////////////////// -->
+
+    <section class="w-full 2xl:container mx-auto -mt-50 xs:-mt-30 xsm:mt-0 md:mt-24 lg:-mt-16 lx:mt-0">
+        <div class="w-full px-4">
+            <div class="text-center flex flex-wrap justify-center">
+                <span class="w-full text-[15px] text-[#707070] flex justify-center mb-1.5 font-medium">نظرات مهمانان</span>
+                <h3 class="w-full text-[35px] md:text-[40px] font-medium leading-11 md:w-3/4 lg:w-1/2 xl:w-full">مهمانان هتل در مورد خدمات ما چه گفته اند</h3>
+                <figure class="w-full flex justify-center mt-4"><img src="img/espinas_tripadviser_icon.jpg" alt=""></figure>
+            </div>
+
+            <div class="w-full mt-10">
+                <div class="w-full relative flex flex-wrap justify-center">
+                    <div class="w-full h-full hidden md:flex absolute top-0 left-0">
+                        <span onclick="nextCom()" class="flex absolute top-1/4 lg:top-1/5 left-5 ml:left-8 xl:left-14 w-10 h-14 xl:w-12 xl:h-16 justify-center items-center cursor-pointer z-10"><i class="ri-arrow-left-long-line text-[#696969] text-[20px] xl:text-2xl"></i></span>
+                        <span onclick="prevCom()" class="flex absolute top-1/4 lg:top-1/5 right-5 ml:right-8 xl:right-14 w-10 h-14 xl:w-12 xl:h-16 justify-center items-center cursor-pointer z-10"><i class="ri-arrow-right-long-line text-[#696969] text-[20px] xl:text-2xl"></i></span>
+                    </div>
+
+                    <div class="mb-16 md:mb-25 w-full xsm:w-5/6 md:w-4/5 lg:w-5/6 lx:w-4/5 xl:w-3/4 flex justify-end lg:mb-16 relative overflow-hidden">
+                        <div id="comBus" class="w-full flex trans relative flex-row-reverse *:select-none">
+                            <div class="comCard will-change-transform text-center shrink-0 w-full px-4 md:px-8 lg:px-12">
+                                <p class="text-[#696969] text-[20px] md:text-2xl m-[15px_20px_10px] md:m-[15px_15px_10px] lg:text-[19px] leading-7.5 md:leading-8.5">"بهترین هتل تهران و بهترین تجربه که میتونم بگم. پرسنل هتل خیلی به ما کمک کرد و برای ما بلیط هواپیما خرید. ما از ایشان خیلی ممنونیم و از تمیزی اتاقمان بسیار راضی بودیم. دوباره به این هتل برگرد."</p>
+                                <span class="flex *:text-[#e4a853] justify-center mb-4.5"><i class="ri-star-line"></i><i class="ri-star-line"></i><i class="ri-star-line"></i><i class="ri-star-line"></i><i class="ri-star-line"></i></span>
+                                <h4 class="text-[20px]">مهمان هتل</h4>
+                                <span class="flex justify-center mt-1 text-[#8b8b8b] text-[18px]">Dec 2025</span>
+                            </div>
+                            <div class="comCard will-change-transform text-center shrink-0 w-full px-4 md:px-8 lg:px-12">
+                                <p class="text-[#696969] text-[20px] md:text-2xl m-[15px_20px_10px] md:m-[15px_15px_10px] lg:text-[19px] leading-7.5 md:leading-8.5">"یکی از بهترین صبحانه ها کنارم مادرم در تهران. خالص، خوشمزه و تازه. واقعا از محیط رستوران خوشم آمد. یک رستوران بین المللی مدرن ایرانی بود که خیلی زیبا بود. متشکرم"</p>
+                                <span class="flex *:text-[#e4a853] justify-center mb-4.5"><i class="ri-star-line"></i><i class="ri-star-line"></i><i class="ri-star-line"></i><i class="ri-star-line"></i><i class="ri-star-line"></i></span>
+                                <h4 class="text-[20px]">مهمان هتل</h4>
+                                <span class="flex justify-center mt-1 text-[#8b8b8b] text-[18px]">Nov 2025</span>
+                            </div>
+                            <div class="comCard will-change-transform text-center shrink-0 w-full px-4 md:px-8 lg:px-12">
+                                <p class="text-[#696969] text-[20px] md:text-2xl m-[15px_20px_10px] md:m-[15px_15px_10px] lg:text-[19px] leading-7.5 md:leading-8.5">"در طول مدت اقامتم در این هتل زیبا، بهترین تجربه ای بود که داشتم. از تیم پذیرش و رفتار مودبانه آنها بسیار سپاسگزارم و از پرسنل هتل که در تهیه نقشه شهر به من کمک کردند تشکر می کنم."</p>
+                                <span class="flex *:text-[#e4a853] justify-center mb-4.5"><i class="ri-star-line"></i><i class="ri-star-line"></i><i class="ri-star-line"></i><i class="ri-star-line"></i><i class="ri-star-line"></i></span>
+                                <h4 class="text-[20px]">مهمان هتل</h4>
+                                <span class="flex justify-center mt-1 text-[#8b8b8b] text-[18px]">Oct 2025</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //////////////////////////////////////// END SEC6 ///////////////////////////////////////////// -->
+
+    <section class="w-full 2xl:container mx-auto">
+        <div class="w-full h-78 md:h-85 lg:h-93 xl:h-101 bg-[url(../img/espinas_offer_bg.jpg)] px-4">
+            <div class="w-full text-center pt-8 md:pt-10 lg:pt-14 xl:pt-20">
+                <span class="text-[12px] ml:text-[13px] font-medium flex w-full justify-center mb-2">بسته های اقامتی</span>
+                <h3 class="text-[35px] ml:text-[40px] font-medium w-full">پکیج های اقامتی ویژه هتل اسپیناس پالاس</h3>
+            </div>
+        </div>
+
+        <div class="w-full px-3.5 -mt-27 lg:-mt-32 xl:-mt-40 mb-7 xs:mb-10 xl:mb-20 xs:flex xs:justify-center">
+            <div class="w-full px-2.5 xs:px-0 xs:w-100 md:w-110 ml:w-full ml:flex zx:justify-evenly">
+                <div class="w-full h-130 xs:h-150 md:h-163 pb-14 xs:pb-7 ml:w-1/3 ml:px-1 ml:h-120 lg:h-130 lx:pb-10 lx:px-2 xl:h-160 xl:px-3 zx:w-104 zx:h-150">
+                    <div class="w-full h-full pt-20 px-7.5 ml:px-2.5 lx:px-8 text-center group bg-[url(../img/offer01.jpg)] bg-cover bg-center *:text-white *:flex *:w-full">
+                        <span class="justify-center text-[18px] lg:text-[20px] font-medium duration-200 group-hover:text-[#f5aa42]">پکیج ویژه تولد</span>
+                        <span class="justify-center text-[22px] lg:text-[26px] font-semibold">دیزاین ساده اتاق</span>
+                        <span class="justify-center text-[22px] lg:text-[26px] font-semibold">کیک تولد</span>
+                        <span class="justify-center text-[22px] lg:text-[26px] font-semibold">نیم شارژ خروج رایگان تا ساعت 13</span>
+                    </div>
+                </div>
+                <div class="w-full h-130 xs:h-150 md:h-163 pb-14 xs:pb-7 ml:w-1/3 ml:px-1 ml:h-120 lg:h-130 lx:pb-0 lx:pt-10 lx:px-2 xl:h-160 xl:px-3 xl:translate-y-8 xl:mb-16 zx:w-104 zx:h-150">
+                    <div class="w-full h-full pt-20 px-7.5 ml:px-2.5 lx:px-8 text-center group bg-[url(../img/offer2.jpg)] bg-cover bg-center *:text-white *:flex *:w-full">
+                        <span class="justify-center text-[18px] lg:text-[20px] font-medium duration-200 group-hover:text-[#f5aa42]">پکیج سالگرد ازدواج</span>
+                        <span class="justify-center text-[22px] lg:text-[26px] font-semibold">دیزاین ساده اتاق</span>
+                        <span class="justify-center text-[22px] lg:text-[26px] font-semibold">تخفیف 200هزارتومانی شام</span>
+                        <span class="justify-center text-[22px] lg:text-[26px] font-semibold">نیم شارژ خروج رایگان تا ساعت 13</span>
+                    </div>
+                </div>
+                <div class="w-full h-130 xs:h-150 md:h-163 pb-14 xs:pb-7 ml:w-1/3 ml:px-1 ml:h-120 lg:h-130 lx:pb-10 lx:px-2 xl:h-160 xl:px-3 zx:w-104 zx:h-150">
+                    <div class="w-full h-full pt-20 px-7.5 ml:px-2.5 lx:px-8 text-center group bg-[url(../img/offer3.jpg)] bg-cover bg-center *:text-white *:flex *:w-full">
+                        <span class="justify-center text-[18px] lg:text-[20px] font-medium duration-200 group-hover:text-[#f5aa42]">پکیج ویژه ازدواج</span>
+                        <span class="justify-center text-[22px] lg:text-[26px] font-semibold">دیزاین اتاق رایگان</span>
+                        <span class="justify-center text-[22px] lg:text-[26px] font-semibold">خروج رایگان تا ساعت 13</span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- /////////////////////////////////////// END SEC7 //////////////////////////////////////////// -->
+
+    <footer class="w-full 2xl:container mx-auto">
+        <div class="w-full bg-[url(../img/footer_bg.jpg)] p-[20px_15px_0] md:p-[60px_30px_0] lg:p-[120px_30px_0]">
+            <div class="w-full text-white h-72 md:h-60 lg:h-70 text-center flex flex-wrap md:items-start">
+                <div class="w-full md:w-1/2 md:pl-25 xl:pl-28 md:text-justify">
+                    <span class="text-[12px] flex w-full justify-center md:text-[13px] md:justify-start md:pr-1 font-bold mb-1.5">در ارتباط باشید</span>
+                    <h3 class="text-2xl font-medium leading-9.5 md:text-3xl ">برای دریافت اخبار و پیشنهادات ویژه ما در خبرنامه ما ثبت نام کنید.</h3>
+                </div>
+                <div class="w-full md:w-1/2">
+                    <div class="w-full relative *:h-9.5 *:lg:h-10.5 flex py-4">
+                        <input class="w-full pr-1.5 outline-none border-b md:pr-2 placeholder:text-white text-[14px] lg:text-[16px]" type="email" placeholder="ایمیل خود را وارد کنید">
+                        <button class="absolute px-2 md:px-3 left-0 cursor-pointer text-[14px] lg:text-[16px]">ثبت نام</button>
+                    </div>
+                    <div class="w-full flex justify-start pr-1.5 md:pr-2">
+                        <input class="pl-2 flex w-3.5 lg:w-4" id="tik" type="checkbox">
+                        <label class="pr-2 lg:text-[17px]" for="tik">شرایط و قوانین ثبت نام را می پذیرم</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-full bg-[#191919]">
+            <div class="w-full h-full p-[60px_15px_60px] lg:p-[55px_10px_55px] flex flex-wrap justify-center lg:justify-between lg:flex-row-reverse text-center text-[#e4e4e4]">
+                <figure class="pb-7 ml:w-full ml:flex ml:justify-center lg:hidden"><img class="cursor-pointer" src="img/logo.png" alt=""></figure>
+                <div class="w-full pb-7 ml:w-1/5 lg:w-1/6">
+                    <h3 class="text-[#cca266] font-semibold mb-1.5">تماس با ما</h3>
+                    <span class="flex w-full justify-center">تلفن: 02175675</span>
+                    <span class="flex w-full justify-center">نمابر: 02175675365</span>
+                </div>
+                <div class="w-full pb-7 ml:w-1/3 px-2 xs:px-4 lg:px-2 lg:w-1/4 lg:border-l lg:border-[#8080809f]">
+                    <h3 class="text-[#cca266] font-semibold mb-1.5">آدرس</h3>
+                    <span class="flex w-full justify-center">تهران، سعادت آباد، میدان بهرود، خیابان عابدی، خیابان 33، هتل اسپیناس پالاس</span>
+                </div>
+                <div class="w-full pb-7 ml:w-2/5 lg:w-1/3 lg:border-l lg:border-[#8080809f]">
+                    <h3 class="text-[#cca266] font-semibold mb-1.5">واحد فروش، مارکتینگ و رزرواسیون</h3>
+                    <span class="flex w-full justify-center">atena.ghorbanzadeh@espinashotels.com</span>
+                    <span class="flex w-full justify-center">reservation@espinashotels.com</span>
+                    <span class="flex w-full justify-center">sales@espinashotels.com</span>
+                </div>
+                <div class="w-full pb-3 ml:w-1/3 lg:w-1/5 lg:border-l lg:border-[#8080809f]">
+                    <h3 class="text-[#cca266] font-semibold mb-1">در ارتباط باشید</h3>
+                    <span class="flex w-full justify-center">ما را در شبکه های اجتماعی دنبال کنید</span>
+                    <div class="gap-10 lg:gap-5 xl:gap-8 flex justify-center mt-1 lg:mt-2">
+                        <a target="_blank" href="https://github.com/SaeedDavoodi-Dev"><i class="ri-github-fill text-[#dbdbdb] text-3xl"></i></a>
+                        <a target="_blank" href="https://www.linkedin.com/in/saeed-davoodi-127412368?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="ri-linkedin-box-fill text-[#78d0ff] text-3xl"></i></a>
+                        <a target="_blank" href="https://www.instagram.com/saeed.davoodi_dev?igsh=MW8yazNpY2NzenV6Yg=="><i class="ri-instagram-fill text-[#ff95c3] text-3xl"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- /////////////////////////////////////// END FOOTER //////////////////////////////////////////// -->
+</body>
+
+<script src="js/master.js"></script>
+
+</html>
